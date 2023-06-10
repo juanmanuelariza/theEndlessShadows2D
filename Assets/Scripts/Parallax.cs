@@ -22,7 +22,8 @@ public class Parallax : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        offset = playerRB.velocity.x * 0.1f *velocity * Time.deltaTime;
+        offset = playerRB.velocity.x *velocity * Time.deltaTime;
+        Debug.Log(playerRB.velocity.x);
         material.mainTextureOffset += offset;
     }
 }
