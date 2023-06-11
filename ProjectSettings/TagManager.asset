@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ' Cielo'
+    uniqueID: 2234715645
+    locked: 0
+  - name: Fondolejano
+    uniqueID: 3223149087
+    locked: 0
+  - name: Fondo
+    uniqueID: 794135739
+    locked: 0
+  - name: Decoraciones
+    uniqueID: 4000836721
+    locked: 0
+  - name: Juego
+    uniqueID: 2638494001
+    locked: 0
+  - name: DecoracionesFrente
+    uniqueID: 1712418821
+    locked: 0
+  - name: Frente
+    uniqueID: 3035799263
     locked: 0
