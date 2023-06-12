@@ -5,8 +5,6 @@ using UnityEngine;
 public class Swordman : PlayerController
 {
 
- 
-
     private void Start()
     {
 
@@ -56,6 +54,10 @@ public class Swordman : PlayerController
             m_Anim.Play("Idle");
             IsSit = false;
 
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            isHidden = !isHidden;
         }
 
 
@@ -227,7 +229,10 @@ public class Swordman : PlayerController
 
     }
 
-
+    public bool playerIsHidden()
+    {
+        return isHidden;
+    }
 
 
 
