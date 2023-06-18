@@ -5,6 +5,7 @@ using UnityEngine;
 
 public abstract class PlayerController :MonoBehaviour
 {
+    public bool isHidden = false;
     public bool IsSit = false;
     public int currentJumpCount = 0; 
     public bool isGrounded = false;
